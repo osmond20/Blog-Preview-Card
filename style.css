@@ -1,0 +1,112 @@
+/*Imported local fonts*/
+@font-face {
+    font-family: Figtree-VariableFont_wght;
+    src: url(/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Medium;
+    src: url(/blog-preview-card-main/assets/fonts/static/Figtree-Medium.ttf);
+}
+
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url(/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree-VariableFont_wght';
+    font-size: 16px;
+}
+
+.header_container{
+    height: 45px;
+}
+
+/*Main content*/
+main{
+    height: 855px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Card container*/
+.card{
+    width: 340px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding:20px;
+    box-shadow:7px 7px black;
+}
+
+/*Image*/
+.img{
+    border-radius: 10px;
+    width:300px;
+}
+
+/*info container under the image*/
+.info{
+    margin-top: 20px;
+}
+
+.info > .subinfo{
+    font-family: 'Figtree-ExtraBold';
+    font-weight: 500;
+    background-color:  hsl(47, 88%, 63%);
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.info > .publication{
+ margin-top: 25px;
+}
+
+.title_and_content > .title{
+    font-size: 1.4em;
+    font-family: 'Figtree-ExtraBold';
+}
+
+/*title and paragraph*/
+.title_and_content> .title:hover{
+    color:  hsl(47, 88%, 63%);
+    transition: color 0.3s ease;
+    cursor:pointer;
+}
+
+.title_and_content > .content{
+    font-family: 'Figtree-Medium';
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+/*Publisher profile pic and name*/
+.publisher{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.publisher > .profile_pic{
+    width: 35px;
+}
+
+.publisher > .publisher_name{
+    margin-left: 10px;
+    font-family: 'Figtree-ExtraBold'
+}
+
+/*footer*/
+.attribution{
+    height: 45px;
+    text-align: center;
+}
