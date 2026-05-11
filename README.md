@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git-repo](https://your-solution-url.com)
+- Solution URL: [Git-repo](https://github.com/osmond20/Blog-Preview-Card)
 - Live Site URL: [Site](https://your-live-site-url.com)
 
 ## My process
