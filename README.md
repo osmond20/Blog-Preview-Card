@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git-repo](https://github.com/osmond20/Blog-Preview-Card)
-- Live Site URL: [Site](https://your-live-site-url.com)
+- Live Site URL: [Site](https://osmond20.github.io/Blog-Preview-Card/)
 
 ## My process
 - Use AI to give me a breakdown of what to focus on and learn to build the project
@@ -70,5 +70,5 @@ Will be focusing on using flexbox and focusing on responsive design with conside
 - Gemini was used to give me a breakdown of what topics of HTML & CSS to focus on to complete the project.
 
 ## Author
-- Website - [Github](https://www.your-site.com)
+- Website - [Github](https://github.com/osmond20)
 - Frontend Mentor - [@osmond20](https://www.frontendmentor.io/profile/yourusername)
