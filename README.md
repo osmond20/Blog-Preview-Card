@@ -64,7 +64,7 @@ To see how you can add code snippets, see below:
 Will be focusing on using flexbox and focusing on responsive design with consideration of mobile-first design as well
 
 ### Useful resources
-- [mdn web docs](https://www.example.com) - Really helps with understanding HTML or CSS elements and attributes in depth.
+- [mdn web docs](https://developer.mozilla.org/en-US/) - Really helps with understanding HTML or CSS elements and attributes in depth.
 
 ### AI Collaboration
 - Gemini was used to give me a breakdown of what topics of HTML & CSS to focus on to complete the project.
