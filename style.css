@@ -4,18 +4,22 @@
 
 body{
     margin: 0;
-    background-color: hsl(47, 88%, 63%);
-    font-family: 'FigTree';
-    font-size: 16px;
+    /*color variables*/
+    --main-background: hsl(47, 88%, 63%);
+    --content-color:hsl(0, 0%, 42%);
+    background-color: var(--main-background);
+    font-family: 'FigTree', sans-serif;
+    font-size: clamp(0.9rem,2vw, 1rem); /*1 rem = 16px*/
 }
 
 .header_container{
-    height: 45px;
+    /*45px*/
+    height: 2.8125rem;
 }
 
 /*Main content*/
 main{
-    height: 855px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +27,8 @@ main{
 
 /*Card container*/
 .card{
-    width: 340px;
-    height: 500px;
+    width: 21.25rem; /*340px*/
+    height: 31.25rem; /*500px*/
     background-color: white;
     border: 1px solid black;
     border-radius: 25px;
@@ -35,55 +39,54 @@ main{
 /*Image*/
 .img{
     border-radius: 10px;
-    width:300px;
+    width:18.75rem; /*300px*/
 }
 
 /*info container under the image*/
 .info{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .info > .subinfo{
     font-weight: 800;
-    background-color:  hsl(47, 88%, 63%);
+    background-color:  var(--main-background);
     padding: 7px 15px;
     border-radius: 5px;
 }
 
 .info > .publication{
- margin-top: 25px;
+ margin-top: 1.56rem;/*25px*/
 }
 
 .title_and_content > .title{
-    font-size: 1.4em;
+    font-size: clamp(1.25rem, 2vw, 1.45rem);
     font-weight: 800;
 }
 
 /*title and paragraph*/
 .title_and_content> .title:hover{
-    color:  hsl(47, 88%, 63%);
-    transition: color 0.3s ease;
+    color:  var(--main-background);
     cursor:pointer;
 }
 
 .title_and_content > .content{
     font-weight: 500;
-    color: hsl(0, 0%, 42%);
+    color: var(--content-color);
 }
 
 /*Publisher profile pic and name*/
 .publisher{
-    margin-top: 25px;
+    margin-top: 1.56rem; /*25px*/
     display: flex;
     align-items: center;
 }
 
 .publisher > .profile_pic{
-    width: 35px;
+    width: 2.19rem; /*35px*/
 }
 
 .publisher > .publisher_name{
-    margin-left: 10px;
+    margin-left: 0.6rem; /*10px*/
     font-weight: 800;
 }
 
