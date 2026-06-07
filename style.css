@@ -1,20 +1,18 @@
-*{
+*, *::after, *::before{
     box-sizing: border-box;
+}
+
+:root{
+    /*color variables*/
+    --main-background: hsl(47, 88%, 63%);
+    --content-color:hsl(0, 0%, 42%);
 }
 
 body{
     margin: 0;
-    /*color variables*/
-    --main-background: hsl(47, 88%, 63%);
-    --content-color:hsl(0, 0%, 42%);
     background-color: var(--main-background);
     font-family: 'FigTree', sans-serif;
     font-size: clamp(0.9rem,2vw, 1rem); /*1 rem = 16px*/
-}
-
-.header_container{
-    /*45px*/
-    height: 2.8125rem;
 }
 
 /*Main content*/
@@ -27,8 +25,8 @@ main{
 
 /*Card container*/
 .card{
-    width: 21.25rem; /*340px*/
-    height: 31.25rem; /*500px*/
+    width: 17.5rem;
+    height: 27.5rem;
     background-color: white;
     border: 1px solid black;
     border-radius: 25px;
@@ -39,9 +37,8 @@ main{
 /*Image*/
 .img{
     border-radius: 10px;
-    width:18.75rem; /*300px*/
+    width:15rem; 
 }
-
 /*info container under the image*/
 .info{
     margin-top: 1.25rem;
@@ -50,16 +47,16 @@ main{
 .info > .subinfo{
     font-weight: 800;
     background-color:  var(--main-background);
-    padding: 7px 15px;
+    padding:5px 8px;
     border-radius: 5px;
 }
 
 .info > .publication{
- margin-top: 1.56rem;/*25px*/
+ margin-top: 1.56rem;
 }
 
 .title_and_content > .title{
-    font-size: clamp(1.25rem, 2vw, 1.45rem);
+    font-size:1.25rem;
     font-weight: 800;
 }
 
@@ -76,17 +73,43 @@ main{
 
 /*Publisher profile pic and name*/
 .publisher{
-    margin-top: 1.56rem; /*25px*/
+    margin-top: 1rem; 
     display: flex;
     align-items: center;
 }
 
 .publisher > .profile_pic{
-    width: 2.19rem; /*35px*/
+    width: 1.75rem; 
 }
 
 .publisher > .publisher_name{
-    margin-left: 0.6rem; /*10px*/
+    margin-left: 0.6rem; 
     font-weight: 800;
 }
 
+@media(min-width:40rem){
+    .card{
+        width:21.25rem;
+        height: 31.35rem;
+    }
+
+    .img{
+        width: 18.75rem;
+    }
+
+    .info > .subinfo{
+        padding: 7px 15px;
+    }
+
+    .title_and_content > .title{
+        font-size: 1.45rem;
+    }
+
+    .publisher{
+        margin-top: 1.56rem;
+    }
+
+    .publisher > .profile_pic{
+        width: 2rem;
+    }
+}
